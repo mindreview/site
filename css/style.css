@@ -48,7 +48,6 @@ a, a:hover, a:active {
     clear: both;
 }
 
-
 /* Styles
 ---------------------------------*/
 body {
@@ -114,7 +113,6 @@ p {
 .res-nav_click {
     display: none;
 }
-	
 
 /* Nav Styles
 ---------------------------------*/
@@ -288,8 +286,8 @@ a.read_more, a.read_more2 {
 	margin:0 auto;
 }
 a.read_more{
-	 color: #3C3C3C;
-	 border: 1px solid #3C3C3C;
+	color: #3C3C3C;
+	border: 1px solid #3C3C3C;
 }
 a.read_more2:hover, a.read_more:hover {
     background: #fff;
@@ -301,14 +299,6 @@ a.read_more:hover {
     color: #3498db;
     border: 1px solid #3498db;
 }
-
-	
-
-
-
-
-
-
 
 /* Services
 ---------------------------------*/
@@ -339,10 +329,8 @@ a.read_more:hover {
     margin: 0px auto 25px;
 	background: rgb(236, 236, 236);
 	position: absolute;
-left: 0px;
+    left: 0px;
 }
-
- 
 
 .service_icon span {
     background: transparent;
@@ -366,8 +354,8 @@ left: 0px;
     font-weight: 600;
     font-size: 18px;
     color: #111111;
-margin: 35px 0 7px;
-text-align: left;
+    margin: 35px 0 7px;
+    text-align: left;
 }
 
 .service_block p {
@@ -376,12 +364,9 @@ text-align: left;
     margin: 0px;
 	text-align: left;
 }
-	
-
 
 /* Latest Work
 ---------------------------------*/
-
 
 #work_outer {
     background: #f9f9f9;
@@ -467,10 +452,8 @@ a.contact_btn:hover {
     background: transparent;
 }
 
-
 /* Portfolio
 ---------------------------------*/
-
 
 #Portfolio {
     padding: 60px 0px;
@@ -546,7 +529,7 @@ img {
 /* no transition on .isotope container */
 
 .isotope .isotope-item {
-  /* change duration value to whatever you like */
+    /* change duration value to whatever you like */
     -webkit-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
     transition-duration: 0.6s;
@@ -562,11 +545,8 @@ img {
     padding-bottom: 60px;
 }
 
-
 /* Happy Clients
 ---------------------------------*/
-
-
 
 #clients {
     padding: 60px 0px;
@@ -622,7 +602,6 @@ img {
 /* Clients
 ---------------------------------*/
 
-
 .client_logos {
     background: #3498db;
     padding: 60px 0;
@@ -654,103 +633,99 @@ img {
     margin-bottom: 40px;
 }
 
-
-
-
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  padding: 30px 0;
+    padding: 30px 0;
 }
 
 #testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px 30px 0 30px;
-  margin: 30px 15px;
-  text-align: center;
-  min-height: 150px; /*350px*/
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: content-box;
+    padding: 30px 30px 0 30px;
+    margin: 30px 15px;
+    text-align: center;
+    min-height: 150px; /*350px*/
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 767px) {
-  #testimonials .testimonial-item {
-    margin: 30px 10px;
-  }
+    #testimonials .testimonial-item {
+        margin: 30px 10px;
+    }
 }
 
 #testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin: 0 auto;
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
 }
 
 #testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
 }
 
 #testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
+    font-size: 14px;
+    color: #999;
+    margin: 0;
 }
 
 #testimonials .testimonial-item .quote-sign-left {
-  margin-top: -15px;
-  padding-right: 10px;
-  display: inline-block;
-  width: 37px;
+    margin-top: -15px;
+    padding-right: 10px;
+    display: inline-block;
+    width: 37px;
 }
 
 #testimonials .testimonial-item .quote-sign-right {
-  margin-bottom: -15px;
-  padding-left: 10px;
-  display: inline-block;
-  max-width: 100%;
-  width: 37px;
+    margin-bottom: -15px;
+    padding-left: 10px;
+    display: inline-block;
+    max-width: 100%;
+    width: 37px;
 }
 
 #testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
+    font-style: italic;
+    margin: 0 auto 15px auto;
 }
 
 #testimonials .owl-nav, #testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
+    margin-top: 5px;
+    text-align: center;
 }
 
 #testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
 }
 
 #testimonials .owl-dot.active {
-  background-color: #50d8af;
+    background-color: #50d8af;
 }
-
 
 /* About Us
 --------------------------- */
 .aboutUs-container {
-background-image: url(../img/intro.jpg);
+    background-image: url(../img/about/intro.jpg);
 }
 .aboutUs-container {
-background-repeat: no-repeat;
-background-position: right;
-background-size: auto 100%;
-background-position-y: 70px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-position-y: 70px;
 }
 #about-us .read-more{
-	border: 1px solid #3498db;
-	color: #1a1a1a;
+    border: 1px solid #3498db;
+    color: #1a1a1a;
 }
 
 #about-us .read-more:hover{
@@ -805,7 +780,6 @@ background-position-y: 70px;
 .about-us-link a:first-child{
 	margin-left: 0;
 }
-
 
 /* Team
 ---------------------------------*/
@@ -1222,14 +1196,10 @@ margin-bottom: 5px;
     -webkit-animation-delay: 1.2s;
 }
 
-
 /*new_profolio*/
 
-
-
-	
 /* Portfolio */	
-	
+
 .container.portfolio_title {
     padding-bottom: 0px;
 }
@@ -1237,8 +1207,6 @@ margin-bottom: 5px;
 #portfolio {
     padding: 60px 0 40px;
 }
-
-
 
 /* Portfolio Filters */	
 
@@ -1303,8 +1271,6 @@ margin-bottom: 5px;
     margin: 0 0 60px;
     text-align: center;
 }
-
-
 
 /* Portfolio Items */	
 
@@ -1456,10 +1422,7 @@ margin-bottom: 5px;
     -o-transition: opacity .3s .2s, margin-top .3s .2s;
     transition: opacity .3s .2s, margin-top .3s .2s;
 }
-	
-	
-	
-	
+
 /* Portfolio Isotope Transitions */	
 
 .isotope, .isotope .isotope-item {
@@ -1494,11 +1457,7 @@ margin-bottom: 5px;
     transition-duration: 0s;
 }
 
-
-
 /* Portfolio Expander */	
-
-
 
 #project_container {
     display: none;
@@ -1569,10 +1528,8 @@ margin-bottom: 5px;
     padding-bottom: 40px;
 }
 
-	
 /* Portfolio*/	
-	
-	
+
 .project-image-slider .bx-wrapper .bx-next {
     background: url("images/project_slider_right.png") no-repeat;
     background-size: 35px 65px;
@@ -1602,9 +1559,9 @@ margin-bottom: 5px;
     width: 35px;
     z-index: 100;
 }
-	
+
 /* Portfolio Normal Expander */		
-	
+
 .project-description {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -1633,10 +1590,8 @@ margin-bottom: 5px;
     margin-bottom: 5px;
 }
 	
-	
-	
 /* Portfolio FullScreen Expander */			
-	
+
 #cycle-loader {
     height: 32px;
     left: 50%;
